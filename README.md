@@ -15,4 +15,9 @@
   5. SUMIF(): To determine the total sales of a specific product, i used the SUMIF function. E.g (SUMIF(Table3[Product],"shirt",Table3[Total sales])).
   6. TEXT(): Using a TEXT() function in Excel, i was able to isolate the order month and year from the date data. E.g. (=TEXT(E2,"MMM")), (=TEXT(E3,"YYYY"))
   7. Adding calculated column: I added the calculated column below:
-  - Total sales = Quantity * Unit price   
+  - Total sales = Quantity * Unit price
+### Data Organization and Filtering
+The dataset was filtered by Region, Year, and Product to explore trends in different segments, making the data easier to analyze.
+
+
+    
