@@ -69,3 +69,4 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
       FROM SalesData
       GROUP BY CustomerId
     ORDER BY TotalPurchaseAmount DESC;
+- 
