@@ -58,3 +58,14 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
      FROM SalesData
       GROUP BY Product
       ORDER BY TotalSales DESC;
+- Monthly sales for the current year:
+  1. SELECT FORMAT(OrderDate, 'yyyy-MM') AS Month, SUM(Quantity * UnitPrice) AS MonthlyTotal
+     FROM SalesData
+     WHERE YEAR(OrderDate) = YEAR(GETDATE())
+      GROUP BY FORMAT(OrderDate, 'yyyy-MM')
+     ORDER BY Month;
+- Top 5 Customers by total Purchase: Finding the top 5 products by sales is useful for focusing marketing and inventory efforts.
+  1. SELECT TOP 5 CustomerId, SUM(Quantity * UnitPrice) AS TotalPurchaseAmount
+      FROM SalesData
+      GROUP BY CustomerId
+    ORDER BY TotalPurchaseAmount DESC;
