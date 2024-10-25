@@ -18,6 +18,7 @@
   - Total sales = Quantity * Unit price
 ### Data Organization and Filtering
 The dataset was filtered by Region, Year, and Product to explore trends in different segments, making the data easier to analyze.
+
 ### SQL (Structured Query Language): Data Extraction and Querying.
 ### Metrics to Track:
 - Total sales for each product  category
@@ -39,4 +40,21 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
 - Total sales: Total sales for the order (could be calculated as Quantity * UnitPrice).
 - Year: The year the order was placed (extracted from OrderDate).
 - Month: The month the order was placed (extracted from OrderDate).
-    
+### Queries for Sales Metrics
+- Total sales for each product Category: The total sales metric gives an overview of overall performance across all orders.
+  1. SELECT Product, SUM(Quantity * UnitPrice) AS TotalSales
+     FROM SalesData
+     GROUP BY Product;
+- Number of sales transaction in Each product
+  1. SELECT Region, COUNT(OrderID) AS NumberOfTransactions
+    FROM SalesData
+    GROUP BY Region;
+- Total Revenue per product
+  1. SELECT Product, SUM(Quantity * UnitPrice) AS TotalRevenue
+      FROM SalesData
+      GROUP BY Product;
+- Highest selling products by total sales
+  1. SELECT TOP 1 Product, SUM(Quantity * UnitPrice) AS TotalSales
+     FROM SalesData
+      GROUP BY Product
+      ORDER BY TotalSales DESC;
