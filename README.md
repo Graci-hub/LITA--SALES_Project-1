@@ -19,6 +19,24 @@
 ### Data Organization and Filtering
 The dataset was filtered by Region, Year, and Product to explore trends in different segments, making the data easier to analyze.
 ### SQL (Structured Query Language): Data Extraction and Querying.
-### SQL (Structured Query Language) is essential for accessing and working with data in databases, especially when handling large datasets like sales data. It helps to query, filter, and organize data to get the exact information needed, making it ready for deeper analysis. In this report, SQL was used to retrieve and prepare sales data effectively by applying specific steps:
-
+### Metrics to Track:
+- Total sales for each product  category
+- Number of sales transaction in each Region
+- Highest selling products by total sales value
+- Total revenue per product
+- Monthly sales total for the current year
+ - Top 5 Customers by Total Purchase Amount
+- Percentage pf total sales contributed by each Region
+- Products with no sales in the last quarter
+### Data Preparation and Sample structure
+- order ID: Unique identifier for each Order
+- Customer ID: Unique Identifier for each Customer
+- Product: Product name
+- Region: Sales Region
+- OrderDate: Date of the Order
+- Quantity: Number of Units sold
+- Unit price: Price per unit
+- Total sales: Total sales for the order (could be calculated as Quantity * UnitPrice).
+- Year: The year the order was placed (extracted from OrderDate).
+- Month: The month the order was placed (extracted from OrderDate).
     
