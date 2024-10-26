@@ -43,32 +43,32 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
 ### Queries for Sales Metrics
 - Total sales for each product Category: The total sales metric gives an overview of overall performance across all orders.
   1. SELECT Product, SUM(Quantity * UnitPrice) AS TotalSales
-     FROM SalesData
-     GROUP BY Product;
+   2.  FROM SalesData
+   3.  GROUP BY Product;
 - Number of sales transaction in Each product
   1. SELECT Region, COUNT(OrderID) AS NumberOfTransactions
-    FROM SalesData
-    GROUP BY Region;
+   2. FROM SalesData
+   3. GROUP BY Region;
 - Total Revenue per product
   1. SELECT Product, SUM(Quantity * UnitPrice) AS TotalRevenue
-      FROM SalesData
-      GROUP BY Product;
+    2.  FROM SalesData
+    3.  GROUP BY Product;
 - Highest selling products by total sales
   1. SELECT TOP 1 Product, SUM(Quantity * UnitPrice) AS TotalSales
-     FROM SalesData
-      GROUP BY Product
-      ORDER BY TotalSales DESC;
+   2.  FROM SalesData
+   3.   GROUP BY Product
+   4.   ORDER BY TotalSales DESC;
 - Monthly sales for the current year:
   1. SELECT FORMAT(OrderDate, 'yyyy-MM') AS Month, SUM(Quantity * UnitPrice) AS MonthlyTotal
-     FROM SalesData
-     WHERE YEAR(OrderDate) = YEAR(GETDATE())
-      GROUP BY FORMAT(OrderDate, 'yyyy-MM')
-     ORDER BY Month;
+   2.  FROM SalesData
+   3.  WHERE YEAR(OrderDate) = YEAR(GETDATE())
+   4.   GROUP BY FORMAT(OrderDate, 'yyyy-MM')
+   5.  ORDER BY Month;
 - Top 5 Customers by total Purchase: Finding the top 5 products by sales is useful for focusing marketing and inventory efforts.
   1. SELECT TOP 5 CustomerId, SUM(Quantity * UnitPrice) AS TotalPurchaseAmount
-      FROM SalesData
-      GROUP BY CustomerId
-    ORDER BY TotalPurchaseAmount DESC;
+    2.  FROM SalesData
+   3.   GROUP BY CustomerId
+   4. ORDER BY TotalPurchaseAmount DESC;
 - Percentage of Total sales contributed by each Region
   1. WITH RegionSales AS (
    2.   SELECT Region, SUM(Quantity * UnitPrice) AS TotalSales
