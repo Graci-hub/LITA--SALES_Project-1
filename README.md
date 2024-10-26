@@ -69,4 +69,18 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
       FROM SalesData
       GROUP BY CustomerId
     ORDER BY TotalPurchaseAmount DESC;
-- 
+- Percentage of Total sales contributed by each Region
+  1. WITH RegionSales AS (
+   2.   SELECT Region, SUM(Quantity * UnitPrice) AS TotalSales
+   3.  FROM SalesData
+   4.   GROUP BY Region
+    5.   )
+    6.  SELECT Region, TotalSales, 
+     7.  (TotalSales * 100.0 / (SELECT SUM(Quantity * UnitPrice) FROM SalesData)) AS SalesPercentage
+     8. FROM RegionSales;
+- Product with no sales in the last quarter
+  1. SELECT Product
+   2.  FROM SalesData
+    3. WHERE OrderDate < DATEADD(QUARTER, -1, GETDATE())
+   4. GROUP BY Product
+   5. HAVING SUM(Quantity) = 0;
