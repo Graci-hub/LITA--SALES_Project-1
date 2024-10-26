@@ -84,3 +84,8 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
     3. WHERE OrderDate < DATEADD(QUARTER, -1, GETDATE())
    4. GROUP BY Product
    5. HAVING SUM(Quantity) = 0;
+### Visual Analysis
+![Screenshot sales data sql 1](https://github.com/user-attachments/assets/d4a2889d-dc24-4e84-ad89-411b9c7a098f)
+![Screenshot sales data sql2](https://github.com/user-attachments/assets/8f3f57fd-f438-40ad-8385-16c3ef8120ad)
+![Screenshot sales data sql3](https://github.com/user-attachments/assets/4a714594-08a6-423f-85ec-87c3f8dcca91)
+
