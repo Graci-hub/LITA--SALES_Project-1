@@ -88,5 +88,12 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
 - ![Screenshot sales data sql 1](https://github.com/user-attachments/assets/d4a2889d-dc24-4e84-ad89-411b9c7a098f)
 - ![Screenshot sales data sql2](https://github.com/user-attachments/assets/8f3f57fd-f438-40ad-8385-16c3ef8120ad)
 - ![Screenshot sales data sql3](https://github.com/user-attachments/assets/4a714594-08a6-423f-85ec-87c3f8dcca91)
-### Visualization in Power BI
+## Power BI: Interactive Data Visualization
+### Data Import and Transformation: Power BI helps me to import Data from multiple sources such as Excel sheets and SQL databases by connecting to these sources directly but for this report, data was imported from Excel sheets only. Once the data is imported, Power BI uses Power Query to clean, shape, and merge data as needed. Power Query has an easy-to-use interface to:
+- Data Cleaning: This involves removing any unnecessary rows or columns, handling blank or missing values, and making sure each column has a consistent format.
+- Data Transformation: I can perform tasks like renaming columns, splitting text, and formatting dates to make the data more usable.
+- Data Merging: When data from different sources or tables need to be combined, Power query helps to join these tables on a common field.
+#### Importance of Data Transormation
+##### The importance of these is to have a single, organised dataset ready for analysis. This helps saves time, ensure data accuracy, and allows for a seamless transition to visualizing and analyzing the data within Power BI.
+
 
