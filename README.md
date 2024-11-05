@@ -95,5 +95,6 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
 - Data Merging: When data from different sources or tables need to be combined, Power query helps to join these tables on a common field.
 #### Importance of Data Transormation
 ##### The importance of these is to have a single, organised dataset ready for analysis. This helps saves time, ensure data accuracy, and allows for a seamless transition to visualizing and analyzing the data within Power BI.
+### Dashboards and Reports: Creating dashboards and Reports is essential in Power BI because it helps to display key sales metrics in a clear and interactive way. Dashboards helps to see the overview of important information like total sales, revenue by region, etc. 
 
 
