@@ -64,7 +64,7 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
 
 ## Power BI: Interactive Data Visualization
 ### Data Import and Transformation: 
-Power BI helps me to import Data from multiple sources such as Excel sheets and SQL databases by connecting to these sources directly but for this report, data was imported from Excel sheets only. Once the data is imported, Power BI uses Power Query to clean, shape, and merge data as needed. Power Query has an easy-to-use interface to:
+Power BI helped me to import Data from multiple sources such as Excel sheets and SQL databases by connecting to these sources directly but for this report, data was imported from Excel sheets only. Once the data is imported, Power BI uses Power Query to clean, shape, and merge data as needed. Power Query has an easy-to-use interface to:
 - Data Cleaning: This involves removing any unnecessary rows or columns, handling blank or missing values, and making sure each column has a consistent format.
 - Data Transformation: I can perform tasks like renaming columns, splitting text, and formatting dates to make the data more usable.
 - Data Merging: When data from different sources or tables need to be combined, Power query helps to join these tables on a common field.
