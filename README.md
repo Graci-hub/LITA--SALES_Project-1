@@ -79,7 +79,8 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
 - Donut Charts: Used for comparing things, like revenue from different products or sales in different regions.
 - Clustered Bar chart: Ideal for showing values, measures for more than one item that shares the same category.
 - Line Graphs: Ideal for showing trends over time, like monthly or yearly sales growth.
-### Data Slicing and Filtering: This is an essential tool in Power BI that makes it easy for me to focus on some specific parts of my data without changing the entire dashboard. The Slicer tool helps to add filter controls on my dashboard. E.g Time slicer and Region slicer. Filter on the other hand helped to narrow down data. E.g Product category filter.
+### Data Slicing and Filtering: 
+This is an essential tool in Power BI that makes it easy for me to focus on some specific parts of my data without changing the entire dashboard. The Slicer tool helps to add filter controls on my dashboard. E.g Time slicer and Region slicer. Filter on the other hand helped to narrow down data. E.g Product category filter.
 ## Inference
 
 
