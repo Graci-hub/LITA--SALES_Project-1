@@ -85,9 +85,8 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
    4. GROUP BY Product
    5. HAVING SUM(Quantity) = 0;
 ### Visual Analysis
-- ![Screenshot sales data sql 1](https://github.com/user-attachments/assets/d4a2889d-dc24-4e84-ad89-411b9c7a098f)
-- ![Screenshot sales data sql2](https://github.com/user-attachments/assets/8f3f57fd-f438-40ad-8385-16c3ef8120ad)
-- ![Screenshot sales data sql3](https://github.com/user-attachments/assets/4a714594-08a6-423f-85ec-87c3f8dcca91)
+[lita1 project.txt](https://github.com/user-attachments/files/17648503/lita1.project.txt)
+
 ## Power BI: Interactive Data Visualization
 ### Data Import and Transformation: Power BI helps me to import Data from multiple sources such as Excel sheets and SQL databases by connecting to these sources directly but for this report, data was imported from Excel sheets only. Once the data is imported, Power BI uses Power Query to clean, shape, and merge data as needed. Power Query has an easy-to-use interface to:
 - Data Cleaning: This involves removing any unnecessary rows or columns, handling blank or missing values, and making sure each column has a consistent format.
