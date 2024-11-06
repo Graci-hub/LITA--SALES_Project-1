@@ -41,7 +41,8 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
 - Year: The year the order was placed (extracted from OrderDate).
 - Month: The month the order was placed (extracted from OrderDate).
 ### Queries for Sales Metrics
-[Lita project sales data.txt](https://github.com/user-attachments/files/17648636/Lita.project.sales.data.txt)
+[Lita project sales data.txt](https://github.com/user-attachments/files/17648692/Lita.project.sales.data.txt)
+
 
 - Total sales for each product Category: The total sales metric gives an overview of overall performance across all orders.
   1. SELECT Product, SUM(Quantity * UnitPrice) AS TotalSales
