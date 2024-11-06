@@ -63,18 +63,20 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
 [lita1 project.txt](https://github.com/user-attachments/files/17648503/lita1.project.txt)
 
 ## Power BI: Interactive Data Visualization
-### Data Import and Transformation: Power BI helps me to import Data from multiple sources such as Excel sheets and SQL databases by connecting to these sources directly but for this report, data was imported from Excel sheets only. Once the data is imported, Power BI uses Power Query to clean, shape, and merge data as needed. Power Query has an easy-to-use interface to:
+### Data Import and Transformation: 
+Power BI helps me to import Data from multiple sources such as Excel sheets and SQL databases by connecting to these sources directly but for this report, data was imported from Excel sheets only. Once the data is imported, Power BI uses Power Query to clean, shape, and merge data as needed. Power Query has an easy-to-use interface to:
 - Data Cleaning: This involves removing any unnecessary rows or columns, handling blank or missing values, and making sure each column has a consistent format.
 - Data Transformation: I can perform tasks like renaming columns, splitting text, and formatting dates to make the data more usable.
 - Data Merging: When data from different sources or tables need to be combined, Power query helps to join these tables on a common field.
-#### Importance of Data Transormation
-##### The importance of these is to have a single, organised dataset ready for analysis. This helps saves time, ensure data accuracy, and allows for a seamless transition to visualizing and analyzing the data within Power BI.
-### Dashboards and Reports: Creating dashboards and Reports is essential in Power BI because it helps to display key sales metrics in a clear and interactive way. Dashboards helps to see the overview of important information like total sales, revenue by region, etc. 
-#### Key Metrics setup
+### Importance of Data Transormation
+ The importance of these is to have a single, organised dataset ready for analysis. This helps saves time, ensure data accuracy, and allows for a seamless transition to visualizing and analyzing the data within Power BI.
+### Dashboards and Reports:
+Creating dashboards and Reports is essential in Power BI because it helps to display key sales metrics in a clear and interactive way. Dashboards helps to see the overview of important information like total sales, revenue by region, etc. 
+### Key Metrics setup
 - Total sales: This shows the overall total sales
 - Revenue by Region: This breaks down sales by different regions to see where the most revenue is coming from.
 - Product performance: It displays the best selling products.
-#### Visualization Tools Used.
+### Visualization Tools Used.
 - Cards: Used to display single, large numbers like total sales or a total customers for quick reference.
 - Donut Charts: Used for comparing things, like revenue from different products or sales in different regions.
 - Clustered Bar chart: Ideal for showing values, measures for more than one item that shares the same category.
