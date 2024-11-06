@@ -41,52 +41,24 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
 - Year: The year the order was placed (extracted from OrderDate).
 - Month: The month the order was placed (extracted from OrderDate).
 ### Queries for Sales Metrics
-[Lita project sales data.txt](https://github.com/user-attachments/files/17648692/Lita.project.sales.data.txt)
-
-
 - Total sales for each product Category: The total sales metric gives an overview of overall performance across all orders.
-  1. SELECT Product, SUM(Quantity * UnitPrice) AS TotalSales
-   2.  FROM SalesData
-   3.  GROUP BY Product;
+  [Total sales Query.txt](https://github.com/user-attachments/files/17648735/Total.sales.Query.txt)
+
 - Number of sales transaction in Each product
-  1. SELECT Region, COUNT(OrderID) AS NumberOfTransactions
-   2. FROM SalesData
-   3. GROUP BY Region;
+  [Sales transaction.txt](https://github.com/user-attachments/files/17648850/Sales.transaction.txt)
+
 - Total Revenue per product
-  1. SELECT Product, SUM(Quantity * UnitPrice) AS TotalRevenue
-    2.  FROM SalesData
-    3.  GROUP BY Product;
-- Highest selling products by total sales
-  1. SELECT TOP 1 Product, SUM(Quantity * UnitPrice) AS TotalSales
-   2.  FROM SalesData
-   3.   GROUP BY Product
-   4.   ORDER BY TotalSales DESC;
-- Monthly sales for the current year:
-  1. SELECT FORMAT(OrderDate, 'yyyy-MM') AS Month, SUM(Quantity * UnitPrice) AS MonthlyTotal
-   2.  FROM SalesData
-   3.  WHERE YEAR(OrderDate) = YEAR(GETDATE())
-   4.   GROUP BY FORMAT(OrderDate, 'yyyy-MM')
-   5.  ORDER BY Month;
+  [revenue per product.txt](https://github.com/user-attachments/files/17648938/revenue.per.product.txt)
+
 - Top 5 Customers by total Purchase: Finding the top 5 products by sales is useful for focusing marketing and inventory efforts.
-  1. SELECT TOP 5 CustomerId, SUM(Quantity * UnitPrice) AS TotalPurchaseAmount
-    2.  FROM SalesData
-   3.   GROUP BY CustomerId
-   4. ORDER BY TotalPurchaseAmount DESC;
+  [top 5 customers.txt](https://github.com/user-attachments/files/17648984/top.5.customers.txt)
+
 - Percentage of Total sales contributed by each Region
-  1. WITH RegionSales AS (
-   2.   SELECT Region, SUM(Quantity * UnitPrice) AS TotalSales
-   3.  FROM SalesData
-   4.   GROUP BY Region
-    5.   )
-    6.  SELECT Region, TotalSales, 
-     7.  (TotalSales * 100.0 / (SELECT SUM(Quantity * UnitPrice) FROM SalesData)) AS SalesPercentage
-     8. FROM RegionSales;
+  [total sales percentage.txt](https://github.com/user-attachments/files/17649002/total.sales.percentage.txt)
+
 - Product with no sales in the last quarter
-  1. SELECT Product
-   2.  FROM SalesData
-    3. WHERE OrderDate < DATEADD(QUARTER, -1, GETDATE())
-   4. GROUP BY Product
-   5. HAVING SUM(Quantity) = 0;
+  [product with no sales.txt](https://github.com/user-attachments/files/17649038/product.with.no.sales.txt)
+
 ### Visual Analysis
 [lita1 project.txt](https://github.com/user-attachments/files/17648503/lita1.project.txt)
 
