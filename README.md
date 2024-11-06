@@ -1,4 +1,4 @@
-# Introduction
+ Introduction
 ### This report analyzes sales data using tools like Excel, SQL, and Power BI to uncover key trends and insights. The data contains fields such as Order ID, Customer ID, Products, Region, Order Date, Quantity, Unit Price, Total Sales, Order Year, and Year. The objective is to perform data cleaning, calculations, and visualizations to derive actionable conclusions about sales performance.
 ### Tools used:
 - Excel: Data cleaning, initial exploration, and calculation of key metrics.
@@ -96,5 +96,17 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
 #### Importance of Data Transormation
 ##### The importance of these is to have a single, organised dataset ready for analysis. This helps saves time, ensure data accuracy, and allows for a seamless transition to visualizing and analyzing the data within Power BI.
 ### Dashboards and Reports: Creating dashboards and Reports is essential in Power BI because it helps to display key sales metrics in a clear and interactive way. Dashboards helps to see the overview of important information like total sales, revenue by region, etc. 
+#### Key Metrics setup
+- Total sales: This shows the overall total sales
+- Revenue by Region: This breaks down sales by different regions to see where the most revenue is coming from.
+- Product performance: It displays the best selling products.
+#### Visualization Tools Used.
+- Cards: Used to display single, large numbers like total sales or a total customers for quick reference.
+- Donut Charts: Used for comparing things, like revenue from different products or sales in different regions.
+- Clustered Bar chart: Ideal for showing values, measures for more than one item that shares the same category.
+- Line Graphs: Ideal for showing trends over time, like monthly or yearly sales growth.
+### Data Slicing and Filtering: This is an essential tool in Power BI that makes it easy for me to focus on some specific parts of my data without changing the entire dashboard. The Slicer tool helps to add filter controls on my dashboard. E.g Time slicer and Region slicer. Filter on the other hand helped to narrow down data. E.g Product category filter.
+## Inference
+
 
 
