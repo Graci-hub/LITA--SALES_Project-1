@@ -25,8 +25,7 @@ The dataset was filtered by Region, Year, and Product to explore trends in diffe
 - Number of sales transaction in each Region
 - Highest selling products by total sales value
 - Total revenue per product
-- Monthly sales total for the current year
- - Top 5 Customers by Total Purchase Amount
+- Monthly sales total for the current year  - Top 5 Customers by Total Purchase Amount
 - Percentage pf total sales contributed by each Region
 - Products with no sales in the last quarter
 ### Data Preparation and Sample structure
@@ -83,7 +82,16 @@ Creating dashboards and Reports is essential in Power BI because it helps to dis
 - Line Graphs: Ideal for showing trends over time, like monthly or yearly sales growth.
 ### Data Slicing and Filtering: 
 This is an essential tool in Power BI that makes it easy for me to focus on some specific parts of my data without changing the entire dashboard. The Slicer tool helps to add filter controls on my dashboard. E.g Time slicer and Region slicer. Filter on the other hand helped to narrow down data. E.g Product category filter.
-## Inference
+### Power BI Visual
+[Sales data ppt.pptx](https://github.com/user-attachments/files/17659002/Sales.data.ppt.pptx)
+
+### Visualizations and Dashboards in Power BI
+- Sales Over time: A line chart displays monthly and yearly trends, clearly illustrating peak and slow months.
+- Product Performance: Bar charts for top products and category-level summaries highlight sales distribution across different product categories.
+- Regional Insight: A table visualization pinpoints high and low-performing regions, allowing for quick comparisons.
+### Recommendations
+- Focus on Best selling products: 
+
 
 
 
