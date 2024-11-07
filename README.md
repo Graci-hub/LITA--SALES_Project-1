@@ -18,6 +18,8 @@
   - Total sales = Quantity * Unit price
 ### Data Organization and Filtering
 The dataset was filtered by Region, Year, and Product to explore trends in different segments, making the data easier to analyze.
+### Excel Visuals
+[sales data excel.pptx](https://github.com/user-attachments/files/17661046/sales.data.excel.pptx)
 
 ### SQL (Structured Query Language): Data Extraction and Querying.
 ### Metrics to Track:
@@ -68,7 +70,7 @@ Power BI helped me to import Data from multiple sources such as Excel sheets and
 - Data Transformation: I can perform tasks like renaming columns, splitting text, and formatting dates to make the data more usable.
 - Data Merging: When data from different sources or tables need to be combined, Power query helps to join these tables on a common field.
 ### Importance of Data Transormation
- The importance of these is to have a single, organised dataset ready for analysis. This helps saves time, ensure data accuracy, and allows for a seamless transition to visualizing and analyzing the data within Power BI.
+ The importance of this is to have a single, organised dataset ready for analysis. This helps saves time, ensure data accuracy, and allows for a seamless transition to visualizing and analyzing the data within Power BI.
 ### Dashboards and Reports:
 Creating dashboards and Reports is essential in Power BI because it helps to display key sales metrics in a clear and interactive way. Dashboards helps to see the overview of important information like total sales, revenue by region, etc. 
 ### Key Metrics setup
@@ -90,7 +92,12 @@ This is an essential tool in Power BI that makes it easy for me to focus on some
 - Product Performance: Bar charts for top products and category-level summaries highlight sales distribution across different product categories.
 - Regional Insight: A table visualization pinpoints high and low-performing regions, allowing for quick comparisons.
 ### Recommendations
-- Focus on Best selling products: 
+- Focus on Best selling products: The stock level of the Top 3 products should be increased as they account for a significant share of total sales and are in high demand across various regions. This is to ensure these popular products are readily available and will help meet customer demand, prevent stockouts, and boost overall sales revenue.
+- Marketing improvement in low performing Regions: The regions with the lowest sales figure (North and West) should be targeted by investing in local adverts and promotions as these could help in brand awareness and attract new customers.
+- Monitor Key metrics for continous improvement: The sales metrics such as total revenue, sales per region or product should be regularly reviewed as this would allow the business to make quick adjustments to strategies based on the latest data, helping sustain growth.
+- Introduce Customer Loyalty programs: Loyalty programs to reward repeat customers should be developed such as offering perks like discounts, early access, or rewards points for frequent purchases. This will encourage their loyalty which can also increase their purchase power and attract other customers through word-of-mouth.
+### Conclusion
+The analysis of sales data using Excel, SQL, and Power BI has provided a comprehensive view of the company’s performance across key areas. Leveraging these tools enabled an in-depth exploration of sales trends, product popularity, and customer behavior, which were crucial in forming actionable recommendations. By implementing the suggested strategies, the company can potentially improve sales, increase customer retention, and boost overall profitability.
 
 
 
